@@ -1,5 +1,20 @@
 # @mongoloquent/fastify
 
+<p align="center">
+  <a href="https://www.npmjs.com/@mongoloquent/fastify" target="_blank">
+    <img src="https://img.shields.io/npm/v/@mongoloquent/fastify.svg" alt="NPM Version" />
+  </a>
+  <a href="https://www.npmjs.com/@mongoloquent/fastify" target="_blank">
+    <img src="https://img.shields.io/npm/l/@mongoloquent/fastify.svg" alt="Package License" />
+  </a>
+  <a href="https://www.npmjs.com/@mongoloquent/fastify" target="_blank">
+    <img src="https://img.shields.io/npm/dm/@mongoloquent/fastify.svg" alt="NPM Downloads" />
+  </a>
+  <a href="https://github.com/sponsors/ajatdarojat45" target="_blank">
+    <img src="https://img.shields.io/badge/Support%20us-Github%20Sponsor-41B883.svg" alt="Support us" />
+  </a>
+</p>
+
 Fastify plugin for [Mongoloquent](https://mongoloquent.com/fastify).
 
 ## Installation
