@@ -1,0 +1,52 @@
+{
+  "name": "@mongoloquent/fastify",
+  "version": "0.1.0",
+  "description": "Fastify plugin for Mongoloquent",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "dev": "tsc -p tsconfig.build.json --watch",
+    "test": "node --test",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "fastify",
+    "fastify-plugin",
+    "mongodb",
+    "mongoloquent"
+  ],
+  "author": "Ajat Darojat <ajatdarojat45@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://mongoloquent.com/fastify",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mongoloquent/fastify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mongoloquent/fastify/issues"
+  },
+  "dependencies": {
+    "fastify-plugin": "^5.0.0"
+  },
+  "peerDependencies": {
+    "@mongoloquent/core": ">=4.0.0",
+    "fastify": ">=5.0.0"
+  },
+  "devDependencies": {
+    "@mongoloquent/core": "^4.0.0",
+    "@types/node": "^22.0.0",
+    "fastify": "^5.0.0",
+    "typescript": "~5.5.0"
+  }
+}
