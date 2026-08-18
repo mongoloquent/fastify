@@ -1,9 +1,9 @@
 <p align="center">
   <a href="http://fastify.dev/" target="blank">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMB7CB1u601B4hDxc_3HZkn_6mbHhQirBHrJs0tFIYIzjNpks9c7gxiaY&s=10" width="200" alt="Fastify Logo" />
+    <img src="./assets/fastify.png" width="200" alt="Fastify Logo" />
   </a>
   <br />
-  <img src="https://github.com/mongoloquent/nestjs/raw/main/assets/logo.jpeg" alt="Mongoloquent Logo"/>
+  <img src="./assets/mongoloquent.jpeg" alt="Mongoloquent Logo"/>
 </p>
 
 <p align="center">
@@ -49,7 +49,7 @@ Mongoloquent is an MIT-licensed open source project. It can grow thanks to the s
 
 <p align="center">
   <a href="https://youtube.com/@digicodeacademy" target="_blank">
-    <img height="50px" src="https://github.com/mongoloquent/nestjs/raw/main/assets/digicode.png"/>
+    <img height="50px" src="./assets/digicodeacademy.png"/>
   </a>
 </p>
 
