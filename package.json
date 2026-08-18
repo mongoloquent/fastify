@@ -1,6 +1,6 @@
 {
   "name": "@mongoloquent/fastify",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Mongoloquent is a lightweight MongoDB ORM library for Javascript/Typescript (@fastify)",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
