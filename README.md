@@ -1,6 +1,6 @@
 <p align="center">
   <a href="http://fastify.dev/" target="blank">
-    <img src="./assets/fastify.png" width="200" alt="Fastify Logo" />
+    <img src="./assets/fastify.svg" width="200" alt="Fastify Logo" />
   </a>
   <br />
   <img src="./assets/mongoloquent.jpeg" alt="Mongoloquent Logo"/>
