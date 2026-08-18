@@ -1,7 +1,7 @@
 {
   "name": "@mongoloquent/fastify",
   "version": "0.1.0",
-  "description": "Fastify plugin for Mongoloquent",
+  "description": "Mongoloquent is a lightweight MongoDB ORM library for Javascript/Typescript (@fastify)",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "exports": {
@@ -18,35 +18,74 @@
     "build": "tsc -p tsconfig.build.json",
     "dev": "tsc -p tsconfig.build.json --watch",
     "test": "node --test",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "release": "standard-version",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "*.{js,ts,json,md}": [
+      "prettier --write",
+      "eslint --fix"
+    ]
   },
   "keywords": [
-    "fastify",
-    "fastify-plugin",
+    "javascript",
+    "typescript",
+    "database",
     "mongodb",
-    "mongoloquent"
+    "nosql",
+    "orm",
+    "mongoloquent",
+    "nodejs",
+    "fastify",
+    "fastify-plugin"
   ],
-  "author": "Ajat Darojat <ajatdarojat45@gmail.com>",
+  "author": {
+    "name": "Ajat Darojat",
+    "email": "ajatdarojat45@gmail.com",
+    "url": "https://ajatdarojat45.id"
+  },
   "license": "MIT",
-  "homepage": "https://mongoloquent.com/fastify",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mongoloquent/fastify.git"
   },
+  "funding": {
+    "type": "GitHub",
+    "url": "https://github.com/sponsors/ajatdarojat45"
+  },
   "bugs": {
-    "url": "https://github.com/mongoloquent/fastify/issues"
+    "url": "https://github.com/mongoloquent/fastify/issues",
+    "email": "me@ajatdarojat45.id"
+  },
+  "homepage": "https://mongoloquent.com/docs/integrations/fastify",
+  "publishConfig": {
+    "access": "public"
   },
   "dependencies": {
     "fastify-plugin": "^5.0.0"
   },
   "peerDependencies": {
     "@mongoloquent/core": ">=4.0.0",
-    "fastify": ">=5.0.0"
+    "fastify": ">=5.0.0",
+    "mongodb": "^6.18.0"
   },
   "devDependencies": {
     "@mongoloquent/core": "^4.0.0",
-    "@types/node": "^22.0.0",
     "fastify": "^5.0.0",
-    "typescript": "~5.5.0"
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.1.0",
+    "@typescript-eslint/eslint-plugin": "^8.38.0",
+    "@typescript-eslint/parser": "^8.38.0",
+    "eslint": "^9.32.0",
+    "eslint-plugin-prettier": "^5.5.3",
+    "husky": "^9.1.7",
+    "jest": "^30.0.5",
+    "lint-staged": "^16.1.2",
+    "prettier": "^3.6.2",
+    "standard-version": "^9.5.0",
+    "ts-jest": "^29.4.0",
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3"
   }
 }
