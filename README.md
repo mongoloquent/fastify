@@ -1,4 +1,14 @@
-# @mongoloquent/fastify
+<p align="center">
+  <a href="http://nestjs.com/" target="blank">
+    <img src="https://fastify.dev/img/logos/fastify-black-logo.svg" width="200" alt="Fastify Logo" />
+  </a>
+  <br />
+  <img src="https://github.com/mongoloquent/nestjs/raw/main/assets/logo.jpeg" alt="Mongoloquent Logo"/>
+</p>
+
+<p align="center">
+    A lightweight <a href="https://mongodb.com" target="_blank">MongoDB</a> ORM library for Javascript/Typescript.
+</p>
 
 <p align="center">
   <a href="https://www.npmjs.com/@mongoloquent/fastify" target="_blank">
@@ -10,61 +20,45 @@
   <a href="https://www.npmjs.com/@mongoloquent/fastify" target="_blank">
     <img src="https://img.shields.io/npm/dm/@mongoloquent/fastify.svg" alt="NPM Downloads" />
   </a>
-  <a href="https://github.com/sponsors/ajatdarojat45" target="_blank">
-    <img src="https://img.shields.io/badge/Support%20us-Github%20Sponsor-41B883.svg" alt="Support us" />
+  <a href="https://github.com/sponsors/ajatdarojat45"  target="_blank">
+    <img src="https://img.shields.io/badge/Support%20us-Github%20Sponsor-41B883.svg" alt="Support us">
   </a>
 </p>
 
-Fastify plugin for [Mongoloquent](https://mongoloquent.com/fastify).
+## Description
+
+[Mongoloquent](https://mongoloquent.com/) plugin for [Fastify](https://github.com/fastify/fastify).
 
 ## Installation
 
 ```bash
-npm install @mongoloquent/fastify @mongoloquent/core fastify
+$ npm i --save @mongoloquent/fastify mongoloquent mongodb
 ```
 
-## Usage
+## Quick Start
 
-```typescript
-import Fastify from "fastify";
-import mongoloquent from "@mongoloquent/fastify";
+[Overview & Tutorial](https://mongoloquent.com/docs/integrations/fastify)
 
-const fastify = Fastify();
+## Support
 
-fastify.register(mongoloquent, {
-  connection: "mongodb://localhost:27017",
-  database: "mydb",
-  timezone: "Asia/Jakarta",
-});
+Mongoloquent is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://mongoloquent.com/docs/support).
 
-fastify.get("/", async (request, reply) => {
-  const { db } = fastify.mongoloquent;
-  // use db (DB instance from @mongoloquent/core)
-});
-```
+### Sponsors
 
-## Options
+### Partners
 
-All options are optional and fall back to the defaults below.
+<p align="center">
+  <a href="https://youtube.com/@digicodeacademy" target="_blank">
+    <img height="50px" src="https://github.com/mongoloquent/nestjs/raw/main/assets/digicode.png"/>
+  </a>
+</p>
 
-| Option       | Type     | Default                        | Description                    |
-|--------------|----------|--------------------------------|--------------------------------|
-| `connection` | `string` | `"mongodb://localhost:27017"`  | MongoDB connection string      |
-| `database`   | `string` | `"mongoloquent-fastify"`       | Database name                  |
-| `timezone`   | `string` | `"Asia/Jakarta"`               | Timezone (e.g. `Asia/Jakarta`) |
+## Stay in touch
 
-## Using Models
-
-Because the plugin sets the connection on `Model` globally, you can import and use models directly:
-
-```typescript
-import User from "./models/User";
-
-fastify.get("/users", async () => User.get());
-```
-
-For the full model API see the [Mongoloquent ORM docs](https://mongoloquent.com/docs/orm/getting-started).
+- Author - [Ajat Darojat](https://linkedin.com/in/ajatdarojat45)
+- Website - [https://mongoloquent.com](https://mongoloquent.com/)
 
 ## License
 
-MIT
+Mongoloquent is [MIT licensed](LICENSE).
+
