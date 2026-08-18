@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="http://nestjs.com/" target="blank">
+  <a href="http://fastify.dev/" target="blank">
     <img src="https://fastify.dev/img/logos/fastify-black-logo.svg" width="200" alt="Fastify Logo" />
   </a>
   <br />
@@ -61,4 +61,3 @@ Mongoloquent is an MIT-licensed open source project. It can grow thanks to the s
 ## License
 
 Mongoloquent is [MIT licensed](LICENSE).
-
