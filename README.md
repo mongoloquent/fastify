@@ -1,6 +1,6 @@
 <p align="center">
   <a href="http://fastify.dev/" target="blank">
-    <img src="https://fastify.dev/img/logos/fastify-black-logo.svg" width="200" alt="Fastify Logo" />
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMB7CB1u601B4hDxc_3HZkn_6mbHhQirBHrJs0tFIYIzjNpks9c7gxiaY&s=10" width="200" alt="Fastify Logo" />
   </a>
   <br />
   <img src="https://github.com/mongoloquent/nestjs/raw/main/assets/logo.jpeg" alt="Mongoloquent Logo"/>
@@ -32,7 +32,7 @@
 ## Installation
 
 ```bash
-$ npm i --save @mongoloquent/fastify mongoloquent mongodb
+$ npm i --save @mongoloquent/fastify @mongoloquent/core mongodb
 ```
 
 ## Quick Start
